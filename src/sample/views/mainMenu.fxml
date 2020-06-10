@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.mainMenuController">
+   <children>
+      <Button fx:id="addButton" layoutX="101.0" layoutY="38.0" mnemonicParsing="false" text="Добавить" />
+      <Button fx:id="editButton" layoutX="341.0" layoutY="38.0" mnemonicParsing="false" text="Редактировать" />
+      <Button fx:id="removeButton" layoutX="588.0" layoutY="38.0" mnemonicParsing="false" text="Удалить" />
+
+      <Text fx:id="text" layoutX="37.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="638.13671875" />
+   </children>
+</AnchorPane>
